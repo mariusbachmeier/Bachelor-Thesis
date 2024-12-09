@@ -6,7 +6,7 @@ from flask_migrate import Migrate
 app = Flask(__name__)
 
 # Set the configuration for the SQLAlchemy URI
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:xAIMedicalBenchmark24!@localhost/med-database'
+app.config['SQLALCHEMY_DATABASE_URI'] = '<database-connection>'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 

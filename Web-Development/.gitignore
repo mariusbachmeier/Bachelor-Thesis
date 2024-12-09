@@ -1,0 +1,10 @@
+node_modules
+venv/
+env/
+ENV/
+.venv/
+flask-server/app/__pycache__/__init__.cpython-312.pyc
+flask-server/app/__pycache__/evaluate_results.cpython-312.pyc
+flask-server/app/__pycache__/models.cpython-312.pyc
+flask-server/app/__pycache__/utils.cpython-312.pyc
+
